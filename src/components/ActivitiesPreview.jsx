@@ -5,7 +5,7 @@ const ActivitiesPreview = () => {
       activities: [
         'Group Discussions',
         'Public Speaking Sessions',
-        'Writing Workshops',
+        'Games',
         'Language Exchange',
       ],
       color: 'bg-tuyd-teal',
@@ -22,17 +22,6 @@ const ActivitiesPreview = () => {
       color: 'bg-tuyd-emerald',
       textColor: 'text-white',
     },
-    {
-      period: 'Annual',
-      activities: [
-        'Annual Conference',
-        'Awards & Recognition',
-        'Community Projects',
-        'Special Events',
-      ],
-      color: 'bg-tuyd-orange',
-      textColor: 'text-white',
-    },
   ];
 
   return (
@@ -42,7 +31,7 @@ const ActivitiesPreview = () => {
           Our Activities
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {activityTypes.map((type, index) => (
             <div
               key={index}

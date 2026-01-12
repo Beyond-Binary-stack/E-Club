@@ -24,10 +24,6 @@ const CallToAction = () => {
             Speak. Share. Grow.
           </a>
         </div>
-
-        <p className="text-white/80 mt-8 text-lg">
-          No fees. No commitments. Just genuine conversations and growth.
-        </p>
       </div>
     </section>
   );

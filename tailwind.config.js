@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'tuyd-teal': '#0d9488',
-        'tuyd-emerald': '#10b981',
-        'tuyd-bg': '#faf9f7',
-        'tuyd-text-primary': '#374151',
-        'tuyd-text-secondary': '#6b7280',
-        'tuyd-orange': '#f97316',
-        'tuyd-yellow': '#fbbf24',
+        'linguavibe-teal': '#0d9488',
+        'linguavibe-emerald': '#10b981',
+        'linguavibe-bg': '#faf9f7',
+        'linguavibe-text-primary': '#374151',
+        'linguavibe-text-secondary': '#6b7280',
+        'linguavibe-orange': '#f97316',
+        'linguavibe-yellow': '#fbbf24',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

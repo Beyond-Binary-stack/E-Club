@@ -1,17 +1,22 @@
+import logo from '../Images/logo.jpg';
+
 const Footer = () => {
   return (
-    <footer className="bg-tuyd-text-primary text-white py-12 px-4 sm:px-6 lg:px-8">
+    <footer className="bg-linguavibe-text-primary text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8">
-          <h3 className="text-3xl font-bold mb-2">Talk Until You Drop</h3>
-          <p className="text-xl text-tuyd-yellow">Your Voice, Your Power</p>
+          <div className="flex justify-center mb-4">
+            <img src={logo} alt="Linguavibe Logo" className="w-12 h-12 rounded-full border-2 border-linguavibe-yellow object-cover" />
+          </div>
+          <h3 className="text-3xl font-bold mb-2">Linguavibe</h3>
+          <p className="text-xl text-linguavibe-yellow">Speak the World's Language</p>
         </div>
         
         {/* Social Media Icons */}
         <div className="flex justify-center gap-6 mb-8">
           <a
             href="#"
-            className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-tuyd-teal transition-all duration-300 transform hover:scale-110"
+            className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-linguavibe-teal transition-all duration-300 transform hover:scale-110"
             aria-label="Instagram"
           >
             <svg
@@ -24,7 +29,7 @@ const Footer = () => {
           </a>
           <a
             href="#"
-            className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-tuyd-teal transition-all duration-300 transform hover:scale-110"
+            className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-linguavibe-teal transition-all duration-300 transform hover:scale-110"
             aria-label="Facebook"
           >
             <svg
@@ -37,7 +42,7 @@ const Footer = () => {
           </a>
           <a
             href="#"
-            className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-tuyd-teal transition-all duration-300 transform hover:scale-110"
+            className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-linguavibe-teal transition-all duration-300 transform hover:scale-110"
             aria-label="Twitter"
           >
             <svg
@@ -51,7 +56,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/20 pt-8 text-center text-white/70">
-          <p>&copy; {new Date().getFullYear()} Talk Until You Drop. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Linguavibe. All rights reserved.</p>
         </div>
       </div>
     </footer>

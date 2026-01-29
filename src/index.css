@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply bg-tuyd-bg text-tuyd-text-primary font-sans;
+    @apply bg-linguavibe-bg text-linguavibe-text-primary font-sans;
   }
 
   h1, h2, h3, h4, h5, h6 {

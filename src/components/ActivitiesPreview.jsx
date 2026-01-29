@@ -3,23 +3,23 @@ const ActivitiesPreview = () => {
     {
       period: 'Weekly',
       activities: [
-        'Group Discussions',
-        'Public Speaking Sessions',
+        'Casual Conversations',
+        'Mini-Broadcasts',
         'Games',
         'Language Exchange',
       ],
-      color: 'bg-tuyd-teal',
+      color: 'bg-linguavibe-teal',
       textColor: 'text-white',
     },
     {
       period: 'Monthly',
       activities: [
-        'Debate Competitions',
+        'Hot Topic Debates',
         'Movie Nights',
         'Guest Speaker Events',
         'Creative Showcases',
       ],
-      color: 'bg-tuyd-emerald',
+      color: 'bg-linguavibe-emerald',
       textColor: 'text-white',
     },
   ];
@@ -27,7 +27,7 @@ const ActivitiesPreview = () => {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl sm:text-5xl font-bold text-tuyd-text-primary text-center mb-12">
+        <h2 className="text-4xl sm:text-5xl font-bold text-linguavibe-text-primary text-center mb-12">
           Our Activities
         </h2>
         

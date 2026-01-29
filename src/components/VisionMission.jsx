@@ -1,12 +1,12 @@
 const VisionMission = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-tuyd-bg">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-linguavibe-bg">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Vision */}
           <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-16 h-16 bg-tuyd-teal rounded-full flex items-center justify-center">
+              <div className="w-16 h-16 bg-linguavibe-teal rounded-full flex items-center justify-center">
                 <svg
                   className="w-8 h-8 text-white"
                   fill="none"
@@ -27,11 +27,11 @@ const VisionMission = () => {
                   />
                 </svg>
               </div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-tuyd-text-primary">
+              <h2 className="text-3xl sm:text-4xl font-bold text-linguavibe-text-primary">
                 Vision
               </h2>
             </div>
-            <p className="text-lg text-tuyd-text-secondary leading-relaxed">
+            <p className="text-lg text-linguavibe-text-secondary leading-relaxed">
               To build a vibrant, confident, and creative English-speaking community at Unity University where students grow in communication.
             </p>
           </div>
@@ -39,7 +39,7 @@ const VisionMission = () => {
           {/* Mission */}
           <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-16 h-16 bg-tuyd-emerald rounded-full flex items-center justify-center">
+              <div className="w-16 h-16 bg-linguavibe-emerald rounded-full flex items-center justify-center">
                 <svg
                   className="w-8 h-8 text-white"
                   fill="none"
@@ -54,12 +54,12 @@ const VisionMission = () => {
                   />
                 </svg>
               </div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-tuyd-text-primary">
+              <h2 className="text-3xl sm:text-4xl font-bold text-linguavibe-text-primary">
                 Mission
               </h2>
             </div>
-            <p className="text-lg text-tuyd-text-secondary leading-relaxed">
-              To provide a friendly, fun, and inclusive space for students to practice English fluently, share ideas, and engage in meaningful communication.
+            <p className="text-lg text-linguavibe-text-secondary leading-relaxed">
+              Linguavibe is an English-speaking community for students who want to speak confidently without fear or embarrassment.
             </p>
           </div>
         </div>
@@ -69,4 +69,5 @@ const VisionMission = () => {
 };
 
 export default VisionMission;
+
 

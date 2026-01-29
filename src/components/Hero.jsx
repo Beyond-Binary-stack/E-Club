@@ -1,8 +1,10 @@
+import logo from '../Images/logo.jpg';
+
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image - African Muslim students talking - Responsive */}
-      <div className="absolute inset-0 z-0 bg-tuyd-teal">
+      <div className="absolute inset-0 z-0 bg-linguavibe-teal">
         {/* Mobile image */}
         <div 
           className="block sm:hidden absolute inset-0 w-full h-full"
@@ -39,11 +41,14 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 py-20 max-w-5xl mx-auto">
+        <div className="flex justify-center mb-6 animate-fade-in">
+          <img src={logo} alt="Linguavibe Logo" className="w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-linguavibe-yellow shadow-xl object-cover" />
+        </div>
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-white mb-4 animate-fade-in">
-          Talk Until You Drop
+          Linguavibe
         </h1>
-        <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-tuyd-yellow mb-6 animate-fade-in">
-          Your Voice, Your Power
+        <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-linguavibe-yellow mb-6 animate-fade-in">
+          Speak the World's Language
         </p>
         <p className="text-lg sm:text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto leading-relaxed animate-slide-up">
           Join a safe, fun English-speaking community where confidence grows, 
@@ -54,13 +59,13 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up">
           <a
             href="#cta"
-            className="px-8 py-4 bg-tuyd-teal text-white text-lg font-semibold rounded-lg hover:bg-teal-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full sm:w-auto"
+            className="px-8 py-4 bg-linguavibe-teal text-white text-lg font-semibold rounded-lg hover:bg-teal-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full sm:w-auto"
           >
-            Join the Conversation
+            Let’s Talk
           </a>
           <a
             href="#about"
-            className="px-8 py-4 bg-white text-tuyd-teal text-lg font-semibold rounded-lg hover:bg-tuyd-yellow hover:text-tuyd-text-primary transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full sm:w-auto"
+            className="px-8 py-4 bg-white text-linguavibe-teal text-lg font-semibold rounded-lg hover:bg-linguavibe-yellow hover:text-linguavibe-text-primary transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full sm:w-auto"
           >
             Practice English With Confidence
           </a>

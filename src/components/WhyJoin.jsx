@@ -1,32 +1,32 @@
 const WhyJoin = () => {
   const benefits = [
     {
-      icon: '💪',
-      title: 'Confidence Building',
+      icon: '🗣️',
+      title: 'Speak Confidently',
       description: 'Overcome your fears and speak English with confidence in a supportive environment.',
     },
     {
-      icon: '👥',
-      title: 'Meet New People',
-      description: 'Connect with like-minded students and build lasting friendships.',
+      icon: '🌍',
+      title: 'Improve Real-life English',
+      description: 'Focus on communication that matters in the real world, not just textbooks.',
     },
     {
-      icon: '🌱',
-      title: 'Improve English Naturally',
-      description: 'Learn through real conversations, not textbooks. Practice makes perfect.',
+      icon: '🤝',
+      title: 'Friendly Environment',
+      description: 'Learn and practice in a space that is welcoming, fun, and inclusive.',
     },
     {
-      icon: '🎯',
-      title: 'Leadership & Teamwork',
-      description: 'Develop leadership skills and learn to work effectively in teams.',
+      icon: '😌',
+      title: 'No Pressure, No Judgment',
+      description: 'Mistakes are welcome here. Progress matters more than perfection.',
     },
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-tuyd-bg">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-linguavibe-bg">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl sm:text-5xl font-bold text-tuyd-text-primary text-center mb-12">
-          Why Join TUYD?
+        <h2 className="text-4xl sm:text-5xl font-bold text-linguavibe-text-primary text-center mb-12">
+          Why Join Linguavibe?
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -37,9 +37,9 @@ const WhyJoin = () => {
             >
               <div className="text-5xl flex-shrink-0">{benefit.icon}</div>
               <div>
-                <h3 className="text-xl font-semibold text-tuyd-text-primary mb-2 flex items-center gap-2">
+                <h3 className="text-xl font-semibold text-linguavibe-text-primary mb-2 flex items-center gap-2">
                   <svg
-                    className="w-6 h-6 text-tuyd-emerald"
+                    className="w-6 h-6 text-linguavibe-emerald"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -53,7 +53,7 @@ const WhyJoin = () => {
                   </svg>
                   {benefit.title}
                 </h3>
-                <p className="text-tuyd-text-secondary leading-relaxed">
+                <p className="text-linguavibe-text-secondary leading-relaxed">
                   {benefit.description}
                 </p>
               </div>
